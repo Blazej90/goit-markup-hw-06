@@ -600,6 +600,62 @@ address {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.container-newsletter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 72px;
+  padding-left: 72px;
+}
+
+.sign-up {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+  padding-bottom: 12px;
+}
+
+.input-email > input {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background-color: rgba(47, 48, 58, 1);
+  height: 50px;
+  width: 358px;
+  margin-right: 12px;
+}
+
+.btn-sign-up {
+  padding-top: 30px;
+  padding-right: 72px;
+}
+
+.btn-sign-up > button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 200px;
+  background-color: rgba(33, 150, 243, 1);
+  color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(33, 150, 243, 1);
+  border-radius: 4px;
+  font-weight: bold;
+  padding: 0;
+  cursor: pointer;
+  transition: box-shadow 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#icon-send {
+  fill: currentColor;
+  width: 24px;
+  height: 24px;
+  margin-left: 24px;
+}
+
+.email-input::placeholder {
+  padding-left: 15px;
+}
+
 /* ---- PAGE PORTFOLIO ----*/
 .btn-portfolio > li > button {
   font-size: 16px;
