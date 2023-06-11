@@ -23,7 +23,6 @@
   <body>
       <header>
         <nav>
-          <!-- <div class="container"> -->
           <div class="webstudio">
             <a href="index.html"
               ><span class="web">Web</span
@@ -49,7 +48,6 @@
               <a href="tel:+48111111111">+48 111 111 111</a>
             </li>
           </ul>
-          <!-- </div> -->
         </nav>  
       </header>
       <main>
@@ -58,13 +56,77 @@
             <h1 class="main-text">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
             <button class="btn-order" type="button" data-modal-open>Zamów usługe</button>
           </div> 
-
           <div class="modal" data-modal>
             <div class="modal-content">
               <button class="modal-close" type="button" data-modal-close>x</button>
+              <div class="modal-text">
+                <p class="data-form-text">Zostaw swoje dane w formularzu poniżej</p>
+              </div>
+              <form>
+                <ul>
+                  <li>
+                    <label class="id-placeholder-modal">
+                      <span class="placeholder-modal-text">Imie</span>
+                        <div class="input-modal">
+                          <svg widt="16" height="16" class="icon-modal">
+                            <use href="./images/icons-modal.svg#icon-person-modal"></use>
+                          </svg>
+                          <input type="text" name="name" class="text-input-modal" />
+                        </div>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="id-placeholder-modal">
+                      <span class="placeholder-modal-text">Telefon</span>
+                        <div class="input-modal">
+                          <svg widt="16" height="16" class="icon-modal">
+                            <use href="./images/icons-modal.svg#icon-phone-modal"></use>
+                          </svg>
+                          <input type="text" name="telephone" class="text-input-modal" />
+                        </div>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="id-placeholder-modal">
+                      <span class="placeholder-modal-text">Email</span>
+                        <div class="input-modal">
+                          <svg widt="16" height="16" class="icon-modal">
+                            <use href="./images/icons-modal.svg#icon-envelope-modal"></use>
+                          </svg>
+                          <input type="text" name="email" class="text-input-modal"  />
+                        </div>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="id-placeholder-modal">
+                      <span class="placeholder-modal-text">Komentarz</span>
+                        <div class="input-comment-modal">
+                          <input 
+                            type="text" 
+                            name="comment" 
+                            placeholder="Wprowadź tekst"
+                            class="enter-text" />
+                        </div>
+                    </label>
+                  </li>
+                </ul>
+              </form>
+              <form>
+                <label>
+                  <div class="checkbox-modal">
+                    <input 
+                      type="checkbox" 
+                      name="privacy" 
+                      value="checked" checked />
+                  </div>
+                  <span class="privacy-text">Oświadczam iż akceptuję <u>Regulamin</u> i <u>Politykę Prywatności.</u></span>
+                </label>
+              </form>
+                <div class="btn-send-modal">
+                  <button type="submit">Wyślij</button>     
+                </div>
             </div>
           </div>
-
         </div> 
         <ul class="lorem-main-box">
           <li class="lorem-box">
@@ -117,7 +179,6 @@
           </li>
         </ul>
           <section class="work">
-            <!-- <div class="container"> -->
               <div class="what-we-do">
                 <h2>Czym się zajmujemy</h2>
               </div>
@@ -164,11 +225,9 @@
                   </div>
                 </ul>
               </div>
-            <!-- </div> -->
           </section>
           <div class="our-team-background">
             <section class="team">
-              <!-- <div class="container"> -->
               <div class="our-team">
                 <h2>Nasz Zespół</h2>
               </div>
@@ -311,7 +370,6 @@
                       </div>
                   </div>
                 </ul>
-              <!-- </div> -->
             </section>
           </div>
         <div class="our-clients">
